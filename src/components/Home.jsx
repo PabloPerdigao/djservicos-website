@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from '../assets/logo.png';
-import { Button } from "@/components/ui/Button";
-import { Card, CardContent } from "@/components/ui/Card";
+import { Button } from "./ui/Button";
+import { Card, CardContent } from "./ui/Card";
+
 
 export default function LandingPage() {
   return (
