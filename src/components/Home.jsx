@@ -1,17 +1,17 @@
 import React from 'react';
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
 import logo from '../assets/logo.png';
+// import { Button } from "../components/ui/button";
+// import { Card, CardContent } from "../components/ui/card";
 
 export default function LandingPage() {
   return (
     <div className="bg-[#F1F0E8] text-[#333]">
       {/* Home Section */}
-       <section class="home">
-        <img src={logo} alt="Logo" />
-        <h1>🌱 “Há 34 anos promovendo soluções ambientais que cultivam o futuro!”</h1>
-        <p>Referência em reflorestamento, recuperação de áreas degradadas e soluções ambientais sustentáveis.</p>
-        <a href="#servicos" class="btn">Solicite um orçamento</a>
+      <section className="home text-center py-20 bg-cover bg-center" style={{ backgroundImage: "url('/fundo.png')" }}>
+        <img src={logo} alt="Logo" className="mx-auto mb-6" />
+        <h1 className="text-2xl md:text-4xl font-bold mb-4">🌱 “Há 34 anos promovendo soluções ambientais que cultivam o futuro!”</h1>
+        <p className="mb-6">Referência em reflorestamento, recuperação de áreas degradadas e soluções ambientais sustentáveis.</p>
+        <a href="#servicos" className="bg-[#a30308] text-white py-2 px-4 rounded hover:bg-[#820204]">Solicite um orçamento</a>
       </section>
 
       {/* Sobre Nós */}
@@ -88,7 +88,7 @@ export default function LandingPage() {
         <div className="mt-6">
           <p>📞 (31) 99999-9999</p>
           <p>📧 contato@djservicosrurais.com.br</p>
-          <p>🔗 <a href="https://www.linkedin.com/company/djservicosrurais" target="_blank" rel="noopener noreferrer" className="text-[#a30308] underline">LinkedIn</a></p>
+          <p>🔗 <a href="https://www.linkedin.com/company/djservicos/" target="_blank" rel="noopener noreferrer" className="text-[#a30308] underline">LinkedIn</a></p>
         </div>
       </section>
 
