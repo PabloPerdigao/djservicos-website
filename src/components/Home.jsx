@@ -88,7 +88,7 @@ export default function LandingPage() {
         <div className="mt-6">
           <p>📞 (31) 99999-9999</p>
           <p>📧 contato@djservicosrurais.com.br</p>
-          <p>🔗 <a href="#" className="text-[#a30308] underline">LinkedIn</a></p>
+          <p>🔗 <a href="https://www.linkedin.com/company/djservicosrurais" target="_blank" rel="noopener noreferrer" className="text-[#a30308] underline">LinkedIn</a></p>
         </div>
       </section>
 
